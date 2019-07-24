@@ -73,7 +73,7 @@ function fetchOneBeer(id) {
 
 function slapDetailsOnDom(beerData) {
   BEER_DETAIL_CONTAINER.innerHTML = `
-  <h1>${beerData.name}</h1>
+  <h1>${beerData.name} (${beerData.first_brewed})</h1>
   <img src="${beerData.image_url}">
   <h3>${beerData.tagline}</h3>
   <textarea>${beerData.description}</textarea>
@@ -81,6 +81,23 @@ function slapDetailsOnDom(beerData) {
     Save
   </button>
   `;
+  if (beerData.food_pairing.length > 0) {
+    BEER_DETAIL_CONTAINER.innerHTML += `
+    <br />
+    <h4> ${beerData.name} pairs well with...</h4>
+    <ul class="food-pairings" id="food-pairing-${beerData.id}"></ul>
+    `;
+    let ul = document.querySelector('.food-pairings');
+    for (const pairing of beerData.food_pairing) {
+      let li = document.createElement('li');
+      ul.append(li);
+      li.innerText = pairing;
+    }
+  }
+  BEER_DETAIL_CONTAINER.innerHTML += `
+  <br />
+  <p>A contribution by ${beerData.contributed_by}<p>
+  `
 }
 
 // The text field saves without me doing anything extra to the dom.
