@@ -19,7 +19,7 @@ function renderBeers(beer){
   li.innerHTML = `<li class="list-group-item", data-id="${beer.id}">${beer.name}</li>`
   ul.append(li)
 
-  /// SENDS US TO THE SHOW PAGE \\\  
+  /// SENDS US TO THE SHOW PAGE \\\
   li.addEventListener("click", function(e){
     showBeers(e)
   })
@@ -28,7 +28,7 @@ function renderBeers(beer){
 /// BEER SHOW PAGE \\\
 function showBeers(e){
   const id = e.target.dataset.id
-  
+  console.log(id);
   fetch(`http://localhost:3000/beers/${id}`)
   .then(resp => resp.json())
   .then(beer => viewBeer(beer))
@@ -64,6 +64,6 @@ function editBeer(e){
       "description": "PLACEHOLDER"
     })
   })
-  
+
 
 }
