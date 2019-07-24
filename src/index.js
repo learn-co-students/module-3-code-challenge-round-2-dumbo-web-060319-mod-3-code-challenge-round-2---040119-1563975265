@@ -40,7 +40,7 @@ function renderEditOnDom(data, event) {
 
   //dont actually need to render changes on the dom?
   //the patch happens when save button is clicked
-  //when the li is clicked again it fetches from the api 
+  //when the li is clicked again it fetches from the api
   //so any changes made will be rendered.....???
 
   // debugger
@@ -48,7 +48,7 @@ function renderEditOnDom(data, event) {
 
 function editBeerFetch(event){
   let textArea = document.querySelector("textarea").value
-  
+
   console.log(event.target.dataset.id)
   fetch(BEERS_URL + event.target.dataset.id, {
       method: 'PATCH',
@@ -78,7 +78,7 @@ beerDetail.addEventListener("click", function(event){
 // textAreaTest.assEventListener("keydown", event => {
 //   if (event.keyCode == 13) {
 //     editBeerFetch(event);
-//   }  JUST NEVERMIND THIS 
+//   }  JUST NEVERMIND THIS
 // });
 
 function renderAllBeerLis(beerData) {
