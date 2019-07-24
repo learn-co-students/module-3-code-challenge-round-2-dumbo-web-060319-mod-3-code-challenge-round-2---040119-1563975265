@@ -46,7 +46,7 @@ For this challenge, it is important to work iteratively, one feature at a time, 
 
 ### Step 1 - Display All Beer Names
 
-When the page loads, I should see a list of all of the beer names retrieved from the API on the left hand side of the screen. The API endpoint we need to retrieve all the beers is a conventional RESTful route
+<!-- When the page loads, I should see a list of all of the beer names retrieved from the API on the left hand side of the screen. The API endpoint we need to retrieve all the beers is a conventional RESTful route -->
 
 * **Route:** GET `http://localhost:3000/beers`
 
