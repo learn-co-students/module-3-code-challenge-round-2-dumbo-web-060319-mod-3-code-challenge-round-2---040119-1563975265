@@ -47,6 +47,7 @@ For this challenge, it is important to work iteratively, one feature at a time, 
 ### Step 1 - Display All Beer Names
 
 When the page loads, I should see a list of all of the beer names retrieved from the API on the left hand side of the screen. The API endpoint we need to retrieve all the beers is a conventional RESTful route
+#done---
 
 * **Route:** GET `http://localhost:3000/beers`
 
@@ -63,7 +64,7 @@ When the page loads, I should see a list of all of the beer names retrieved from
   /* etc... */
 </ul>
 ```
-
+#done---
 ### Step 2 - Display Single Beer Details
 
 When I click a beer name, the application should reveal more information about that particular beer.
@@ -89,6 +90,7 @@ The html should look something like:
   Save
 </button>
 ```
+#done
 
 ### Step 3 - Edit Beer Details
 
