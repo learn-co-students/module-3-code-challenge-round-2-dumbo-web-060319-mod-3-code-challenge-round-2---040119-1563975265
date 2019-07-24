@@ -5,7 +5,7 @@
       "name": "Buzz",
       "tagline": "A Real Bitter Experience.",
       "first_brewed": "09/2007",
-      "description": "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.",
+      "description": "LIZARDDDD",
       "image_url": "https://images.punkapi.com/v2/keg.png",
       "food_pairing": [
         "Spicy chicken tikka masala",
@@ -65,7 +65,7 @@
       "name": "Electric India",
       "tagline": "Vibrant Hoppy Saison.",
       "first_brewed": "05/2013",
-      "description": "wow so good!",
+      "description": "wow so good! much delic",
       "image_url": "https://images.punkapi.com/v2/6.png",
       "food_pairing": [
         "Mussels with a garlic and herb sauce",
@@ -95,7 +95,7 @@
       "name": "AB:07",
       "tagline": "Whisky Cask-Aged Scotch Ale.",
       "first_brewed": "03/2010",
-      "description": "Whisky cask-aged imperial scotch ale. Beer perfect for when the rain is coming sideways. Liquorice, plum and raisin temper the warming alcohol, producing a beer capable of holding back the Scottish chill.",
+      "description": "your new description",
       "image_url": "https://images.punkapi.com/v2/9.png",
       "food_pairing": [
         "Kedgeree",
@@ -336,7 +336,7 @@
       "name": "Bad Pixie",
       "tagline": "Spiced Wheat Beer.",
       "first_brewed": "10/2008",
-      "description": "2008 Prototype beer, a 4.7% wheat ale with crushed juniper berries and citrus peel.",
+      "description": "lizards are super cool. the best animals honestly skdufg",
       "image_url": "https://images.punkapi.com/v2/25.png",
       "food_pairing": [
         "Poached sole fillet with capers",
@@ -344,7 +344,8 @@
         "Banana split"
       ],
       "brewers_tips": "Make sure you have plenty of room in the fermenter. Beers containing wheat can often foam aggressively during fermentation.",
-      "contributed_by": "Sam Mason <samjbmason>"
+      "contributed_by": "Sam Mason <samjbmason>",
+      "newDescription": null
     }
   ]
 }
