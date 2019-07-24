@@ -46,7 +46,7 @@ For this challenge, it is important to work iteratively, one feature at a time, 
 
 ### Step 1 - Display All Beer Names
 
-When the page loads, I should see a list of all of the beer names retrieved from the API on the left hand side of the screen. The API endpoint we need to retrieve all the beers is a conventional RESTful route
+<!-- When the page loads, I should see a list of all of the beer names retrieved from the API on the left hand side of the screen. The API endpoint we need to retrieve all the beers is a conventional RESTful route -->
 
 * **Route:** GET `http://localhost:3000/beers`
 
@@ -66,8 +66,8 @@ When the page loads, I should see a list of all of the beer names retrieved from
 
 ### Step 2 - Display Single Beer Details
 
-When I click a beer name, the application should reveal more information about that particular beer.
-See the example above for the additional information that should be displayed.
+<!-- When I click a beer name, the application should reveal more information about that particular beer.
+See the example above for the additional information that should be displayed. -->
 
 * **Route:** GET `http://localhost:3000/beers/:id`
 
@@ -92,7 +92,7 @@ The html should look something like:
 
 ### Step 3 - Edit Beer Details
 
-When looking at the details of a beer, I can edit the current description of a beer. Clicking the 'Save' button will save any changes added to the description in the database. The edited beer should also update the DOM. For example, if I update the details of "Beer A" then click on another beer, when I go back to "Beer A", the description should be updated.
+<!-- When looking at the details of a beer, I can edit the current description of a beer. Clicking the 'Save' button will save any changes added to the description in the database. The edited beer should also update the DOM. For example, if I update the details of "Beer A" then click on another beer, when I go back to "Beer A", the description should be updated. -->
 
 To update a beer you'll need to make a PATCH request
 * **Route:** PATCH `http://localhost:3000/beers/:id`

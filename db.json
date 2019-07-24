@@ -5,7 +5,7 @@
       "name": "Buzz",
       "tagline": "A Real Bitter Experience.",
       "first_brewed": "09/2007",
-      "description": "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.",
+      "description": "TEST!",
       "image_url": "https://images.punkapi.com/v2/keg.png",
       "food_pairing": [
         "Spicy chicken tikka masala",
@@ -65,7 +65,7 @@
       "name": "Electric India",
       "tagline": "Vibrant Hoppy Saison.",
       "first_brewed": "05/2013",
-      "description": "wow so good!",
+      "description": "wow so bad!",
       "image_url": "https://images.punkapi.com/v2/6.png",
       "food_pairing": [
         "Mussels with a garlic and herb sauce",
@@ -80,7 +80,7 @@
       "name": "AB:12",
       "tagline": "Imperial Black Belgian Ale.",
       "first_brewed": "07/2012",
-      "description": "An Imperial Black Belgian Ale aged in old Invergordon Scotch whisky barrels with mountains of raspberries, tayberries and blackberries in each cask. Decadent but light and dry, this beer would make a fantastic base for ageing on pretty much any dark fruit - we used raspberries, tayberries and blackberries beause they were local.",
+      "description": "Perfect beer before you storm area 51.",
       "image_url": "https://images.punkapi.com/v2/7.png",
       "food_pairing": [
         "Tandoori lamb with pomegranate",
@@ -95,7 +95,7 @@
       "name": "AB:07",
       "tagline": "Whisky Cask-Aged Scotch Ale.",
       "first_brewed": "03/2010",
-      "description": "Whisky cask-aged imperial scotch ale. Beer perfect for when the rain is coming sideways. Liquorice, plum and raisin temper the warming alcohol, producing a beer capable of holding back the Scottish chill.",
+      "description": "Perfect beer if you survive storming area 51.",
       "image_url": "https://images.punkapi.com/v2/9.png",
       "food_pairing": [
         "Kedgeree",
@@ -110,7 +110,7 @@
       "name": "Bramling X",
       "tagline": "Single Hop IPA Series - 2011.",
       "first_brewed": "01/2011",
-      "description": "Good old Bramling Cross is elegant, refined, assured, (boring) and understated. Understated that is unless you hop the living daylights out of a beer with it. This is Bramling Cross re-invented and re-imagined, and shows just what can be done with English hops if you use enough of them. Poor Bramling Cross normally gets lost in a woeful stream of conformist brown ales made by sleepy cask ale brewers. But not anymore. This beer shows that British hops do have some soul, and is a fruity riot of blackberries, pears, and plums. Reminds me of the bramble, apple and ginger jam my grandmother used to make.",
+      "description": "test\n",
       "image_url": "https://images.punkapi.com/v2/10.png",
       "food_pairing": [
         "Warm blackberry pie",
@@ -125,7 +125,7 @@
       "name": "Misspent Youth",
       "tagline": "Milk & Honey Scotch Ale.",
       "first_brewed": "04/2013",
-      "description": "The brainchild of our small batch brewer, George Woods. A dangerously drinkable milk sugar- infused Scotch Ale.",
+      "description": "M O O D",
       "image_url": "https://images.punkapi.com/v2/keg.png",
       "food_pairing": [
         "Roasted garlic and chilli infused camembert cheese",
@@ -201,7 +201,7 @@
       "name": "Libertine Porter",
       "tagline": "Dry-Hopped Aggressive Porter.",
       "first_brewed": "01/2012",
-      "description": "An avalanche of cross-continental hop varieties give this porter a complex spicy, resinous and citrusy aroma, with a huge malt bill providing a complex roasty counterpoint. Digging deeper into the flavour draws out cinder toffee, bitter chocolate and hints of woodsmoke.",
+      "description": "George Washington once had this beer and claimed that it was just \"alright\".\n                                    - James Madison",
       "image_url": "https://images.punkapi.com/v2/16.png",
       "food_pairing": [
         "Blue cheese beef burger",
@@ -276,7 +276,7 @@
       "name": "Vice Bier",
       "tagline": "Hoppy Wheat Bier.",
       "first_brewed": "04/2013",
-      "description": "Our take on the classic German Kristallweizen. A clear German wheat beer, layers of bubblegum and vanilla perfectly balanced with the American and New Zealand hops.",
+      "description": "Das Bier",
       "image_url": "https://images.punkapi.com/v2/keg.png",
       "food_pairing": [
         "Citrus salad with balsamic dressing",
@@ -306,7 +306,7 @@
       "name": "Storm",
       "tagline": "Islay Whisky Aged IPA.",
       "first_brewed": "12/2007",
-      "description": "Dark and powerful Islay magic infuses this tropical sensation of an IPA. Using the original Punk IPA as a base, we boosted the ABV to 8% giving it some extra backbone to stand up to the peated smoke imported directly from Islay.",
+      "description": "X-MEN!",
       "image_url": "https://images.punkapi.com/v2/23.png",
       "food_pairing": [
         "Oysters",
