@@ -44,32 +44,34 @@ function getBeersOnPage(beersData) {
   }
 }
 
-// DELIVERABLE NO. 2
+// DELIVERABLE NO. 2 & 3
 
 // Let's get a Click event on the page
 body.addEventListener('click', event => {
-  // console.log(event.target);
-  // Only if the item that is clicked is a list item
-  // debugger;
   if (event.target.className === 'list-group-item') {
     // Grab that beer's id
     let beerId = event.target.dataset.beerId;
     // fetch that single beer
     fetchOneBeer(beerId);
+  } else if (event.target.className == 'btn btn-info') {
+    // if it's the save button
+    // Get the id of the beer from the save button
+    let beerId = event.target.id.split('-')[2];
+    // Get the Sibling (textfield )'s value
+    let description = event.target.previousElementSibling.value;
+    // call function to edit one Beer, pass the beer's id and the new description
+    editOneBeer(beerId, description);
   }
 });
 
 // Fetch one beer
 function fetchOneBeer(id) {
-  // console.log(id);
   fetch(`${BEERS_URL}/${id}`)
     .then(res => res.json())
     .then(slapDetailsOnDom);
 }
 
 function slapDetailsOnDom(beerData) {
-  console.log(beerData);
-  console.log(BEER_DETAIL_CONTAINER);
   BEER_DETAIL_CONTAINER.innerHTML = `
   <h1>${beerData.name}</h1>
   <img src="${beerData.image_url}">
@@ -79,6 +81,22 @@ function slapDetailsOnDom(beerData) {
     Save
   </button>
   `;
+}
+
+// The text field saves without me doing anything extra to the dom.
+// If i click on five different beers and come back to it, it will remain the same, only if I've clicked save.
+function editOneBeer(id, description) {
+  fetch(`${BEERS_URL}/${id}`, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    body: JSON.stringify({ description })
+  })
+    .then(res => res.json())
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
 }
 
 /* on the page, LIST OF BEERS SHOULD LOOK LIKE
