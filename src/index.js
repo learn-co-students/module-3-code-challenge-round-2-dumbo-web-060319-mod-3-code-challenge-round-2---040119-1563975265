@@ -25,24 +25,22 @@ function displayBeer(beer){
 
 function showDetails(beerData, beer){
     const beerInfo = document.querySelector("#beer-detail")
-    const infoDiv = document.createElement('div')
+   
 
-    infoDiv.innerHTML= `
+    beerInfo.innerHTML= `
     <h1>${beer.name}</h1>
     <img src="${beer.image_url}">
     <h3>${beer.tagline}</h3>
     <textarea class="text-area">${beer.description}</textarea>
     <button id="edit-beer" class="btn btn-info">Save</button>
  ` 
-    beerInfo.append(infoDiv)
-    //return beerInfo
 
     //--- EDIT BEER --- //
-    const editBeer = infoDiv.querySelector("#edit-beer") 
-
-    let description = infoDiv.querySelector(".text-area")
+    const editBeer = beerInfo.querySelector("#edit-beer") 
 
     editBeer.addEventListener("click", function(){
+
+        let newDescription = beerInfo.querySelector(".text-area").value
 
         fetch('http://localhost:3000/beers/' + beer.id, {
         method: "PATCH",
@@ -51,11 +49,11 @@ function showDetails(beerData, beer){
             "Accept": "application/json"
         },
         body:JSON.stringify({
-            "description": beer.description
+            "description": newDescription
         })
     }).then(response => response.json())
     .then(response => {
-    description.innerText = response.description;
+        beer.description = response.description;
     })
 
     })
