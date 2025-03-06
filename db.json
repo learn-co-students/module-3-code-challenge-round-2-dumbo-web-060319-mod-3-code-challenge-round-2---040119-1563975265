@@ -5,7 +5,7 @@
       "name": "Buzz",
       "tagline": "A Real Bitter Experience.",
       "first_brewed": "09/2007",
-      "description": "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.",
+      "description": "dsadasd ",
       "image_url": "https://images.punkapi.com/v2/keg.png",
       "food_pairing": [
         "Spicy chicken tikka masala",
@@ -20,7 +20,7 @@
       "name": "Berliner Weisse With Yuzu - B-Sides",
       "tagline": "Japanese Citrus Berliner Weisse.",
       "first_brewed": "11/2015",
-      "description": "Japanese citrus fruit intensifies the sour nature of this German classic.",
+      "description": "dsadasd ",
       "image_url": "https://images.punkapi.com/v2/keg.png",
       "food_pairing": [
         "Smoked chicken wings",
@@ -35,7 +35,7 @@
       "name": "Pilsen Lager",
       "tagline": "Unleash the Yeast Series.",
       "first_brewed": "09/2013",
-      "description": "Our Unleash the Yeast series was an epic experiment into the differences in aroma and flavour provided by switching up your yeast. We brewed up a wort with a light caramel note and some toasty biscuit flavour, and hopped it with Amarillo and Centennial for a citrusy bitterness. Everything else is down to the yeast. Pilsner yeast ferments with no fruity esters or spicy phenols, although it can add a hint of butterscotch.",
+      "description": "dsadasd ",
       "image_url": "https://images.punkapi.com/v2/4.png",
       "food_pairing": [
         "Spicy crab cakes",
@@ -80,7 +80,7 @@
       "name": "AB:12",
       "tagline": "Imperial Black Belgian Ale.",
       "first_brewed": "07/2012",
-      "description": "An Imperial Black Belgian Ale aged in old Invergordon Scotch whisky barrels with mountains of raspberries, tayberries and blackberries in each cask. Decadent but light and dry, this beer would make a fantastic base for ageing on pretty much any dark fruit - we used raspberries, tayberries and blackberries beause they were local.",
+      "description": "dsadasd ",
       "image_url": "https://images.punkapi.com/v2/7.png",
       "food_pairing": [
         "Tandoori lamb with pomegranate",
@@ -314,14 +314,17 @@
         "Rocky Road"
       ],
       "brewers_tips": "After primary fermentation is complete, rack off into a secondary fermeter and add the oak chips to replicate the authentic Islay barrel experience.",
-      "contributed_by": "Sam Mason <samjbmason>"
+      "contributed_by": "Sam Mason <samjbmason>",
+      "newdata": {
+        "button": ""
+      }
     },
     {
       "id": 23,
       "name": "The End Of History",
       "tagline": "The World's Strongest Beer.",
       "first_brewed": "06/2011",
-      "description": "The End of History: The name derives from the famous work of philosopher Francis Fukuyama, this is to beer what democracy is to history. Complexity defined. Floral, grapefruit, caramel and cloves are intensified by boozy heat.",
+      "description": "dsadasd ",
       "image_url": "https://images.punkapi.com/v2/24.png",
       "food_pairing": [
         "Roasted wood pigeon with black pudding",
@@ -336,7 +339,7 @@
       "name": "Bad Pixie",
       "tagline": "Spiced Wheat Beer.",
       "first_brewed": "10/2008",
-      "description": "2008 Prototype beer, a 4.7% wheat ale with crushed juniper berries and citrus peel.",
+      "description": "dsadasd ",
       "image_url": "https://images.punkapi.com/v2/25.png",
       "food_pairing": [
         "Poached sole fillet with capers",
@@ -344,7 +347,8 @@
         "Banana split"
       ],
       "brewers_tips": "Make sure you have plenty of room in the fermenter. Beers containing wheat can often foam aggressively during fermentation.",
-      "contributed_by": "Sam Mason <samjbmason>"
+      "contributed_by": "Sam Mason <samjbmason>",
+      "newdata": {}
     }
   ]
 }
